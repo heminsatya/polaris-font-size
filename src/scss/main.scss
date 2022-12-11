@@ -1,0 +1,19 @@
+/**
+ * Polaris font-size Plugin v1.1.0
+ * MIT License github.com/heminsatya/polaris-plugins | © 2022 polarisui.com
+**/
+// -------------------------------------------------- //
+//                    Constructor                     //
+// -------------------------------------------------- //
+@use 'sass:math';
+@use "sass:map";
+
+@import "./bootstrap";
+
+
+/* -------------------------------------------------- */
+/*                       font-size                    */
+/* -------------------------------------------------- */
+// -- Component Class -- //
+@include component-class($font-sizes-plugin, $name-font-size, "font-size", $strict-font-formating);
+@include responsive-component-class($font-sizes-plugin, $name-font-size, "font-size",  $responsive-font-formating, $strict-font-formating);
