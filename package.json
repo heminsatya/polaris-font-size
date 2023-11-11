@@ -1,6 +1,6 @@
 {
   "name": "polaris-font-size",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "Polaris font-size Plugin for Polaris Framework. A set of responsive classes for controlling the 'font-size' of HTML elements.",
   "author": "Hemin Satya",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "url": "https://github.com/heminsatya/polaris-font-size/issues"
   },
   "devDependencies": {
-    "polaris-core": "^0.9.13",
+    "polaris-core": "^0.9.15",
     "sass": "^1.56.1"
   },
   "scripts": {
