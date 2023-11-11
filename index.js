@@ -1,5 +1,5 @@
 const msg = `
-    Polaris font-size Plugin v1.3.3
+    Polaris font-size Plugin v1.3.4
 `
 
 module.exports = msg
